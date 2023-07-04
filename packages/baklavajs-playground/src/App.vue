@@ -68,7 +68,7 @@ export default class App extends Vue {
 
         this.viewPlugin.hooks.renderNode.tap(this, (node) => {
             if (node.node.type === "TestNode") {
-                (node.$el as HTMLElement).style.backgroundColor = "red";
+                (node.$el as HTMLElement).style.backgroundColor = "gray";
             }
             return node;
         });

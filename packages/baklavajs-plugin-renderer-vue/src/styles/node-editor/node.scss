@@ -7,13 +7,15 @@
     filter: drop-shadow(0 0 3px #000000cc);
     transition: box-shadow $visual-transition, filter $visual-transition;
 
+    /*
     &:hover {
         box-shadow: 0 0 0 0.35px $color-node-selected;
     }
+    */
 
     &.--selected {
         z-index: 5;
-        box-shadow: 0 0 0 1px $color-node-selected;
+        box-shadow: 0px 0px 1px 2px #4ea9ff;
     }
 
     &.--dragging {
